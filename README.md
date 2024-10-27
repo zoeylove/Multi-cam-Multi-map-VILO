@@ -45,10 +45,6 @@ The **Multi-cam Multi-map Visual Inertial Localization (VILO)** system is a high
 - **Causal Evaluation Metrics**  
   VILO introduces tailored, causal evaluation metrics that assess localization accuracy in real time, eliminating the need for post-processing and enabling immediate feedback for live navigation and control.
 
-### Comprehensive Dataset
-
-We offer a robust, nine-month dataset from Zhejiang University’s Zijingang Campus, spanning over 55 km and diverse real-world conditions. The dataset includes synchronized surround-view cameras, IMU, LiDAR, GPS, and INS data, making it an ideal resource for long-term testing of localization accuracy and robustness.
-
 ---
 
 ## Table of Contents
@@ -88,6 +84,8 @@ Uses pre-built maps for accurate, consistent localization by combining multi-cam
 ---
 
 ## Datasets
+
+We offer a robust, nine-month dataset from Zhejiang University’s Zijingang Campus, spanning over 55 km and diverse real-world conditions. The dataset includes synchronized surround-view cameras, IMU, LiDAR, GPS, and INS data, making it an ideal resource for long-term testing of localization accuracy and robustness.
 
 ### Hardware
 
