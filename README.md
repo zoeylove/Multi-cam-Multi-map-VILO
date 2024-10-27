@@ -77,8 +77,8 @@ The **VILO** system is a multi-camera, multi-map visual-inertial localization so
 ### Mapping-Mode
 Captures multi-sensor data in real-time, providing immediate feedback for optimized map creation. Offline processing then generates high-precision, dense 3D reconstructions.
 
-![Mapping Mode](./figs/Mapping.jpg)
-![Mapping Mode](./figs/Mapping_result.jpg)
+![Mapping Mode](./figs/mapping.jpg)
+![Mapping Mode](./figs/mapping_result.jpg)
 
 ### Localization-Mode
 Uses pre-built maps for accurate, consistent localization by combining multi-camera VIO with robust feature matching and outlier rejection, ensuring drift-free performance across diverse environments.
