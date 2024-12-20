@@ -59,7 +59,7 @@ The **Multi-cam Multi-map Visual Inertial Localization (VILO)** system is a high
   - [Collected Data](#Collected-Data)
 
 - [Links](#links)
-  - [VIO Code](#VIO-Code)
+  - [VILO Code](#VILO-Code)
   - [Executable Files and Sample Maps for Map Relocalization](#Executable-Files-and-Sample-Maps-for-Map-Relocalization)
   - [Complete Dataset](#complete-dataset)
 
@@ -128,7 +128,7 @@ Captured across multiple sessions, the dataset includes seasonal and environment
 
 ### VIO Code
 
-Access the VIO part's code from [GitHub - C-MIMB-VIO](https://github.com/zoeylove/Multi-cam-Multi-map-VILO/tree/main/C-MIMB-VIO).
+Access the VILO part's code from [GitHub - C-MIMB-VIO](https://github.com/zoeylove/Multi-cam-Multi-map-VILO/tree/main/VILO).
 
 ### Executable Files and Sample Maps for Map Relocalization
 
