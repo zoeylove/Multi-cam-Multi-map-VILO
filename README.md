@@ -56,7 +56,7 @@ The **Multi-cam Multi-map Visual Inertial Localization (VILO)** system is a high
 - [Datasets](#Datasets)
   - [Hardware](#hardware)
   - [Synchronization](#synchronization)
-  - [Dataset](#dataset)
+  - [Collected Data](#Collected-Data)
 
 - [Links](#links)
   - [Executable Files and Sample Maps for Map Relocalization](#Executable-Files-and-Sample-Maps-for-Map-Relocalization)
