@@ -32,42 +32,49 @@ To use the provided pre-built map:
    ```yaml
    database_dir: "/path/to/your/database"
    database_name: "qsdjt"
+   ```
 
 ### 2. Launch File Configuration
 In `use_example.launch`, update the following parameters:
 
 1. Map storage directory:
-  ```xml
-  <arg name="map_save_path" default="/path/to/map/storage/" />
+   ```xml
+   <arg name="map_save_path" default="/path/to/map/storage/" />
+   ```
 
 2. Matcher URL:
-  ```xml
-  DetectAndMatch_URL: "http://your.matcher.url:6000/process_images"
-  Note: Must match your online matcher configuration from step 2
+   ```xml
+   DetectAndMatch_URL: "http://your.matcher.url:6000/process_images"
+   ```
+   Note: Must match your online matcher configuration from step 2
 
-3. Image storage directory:
-```xml
-  DetectAndMatch_img_save_path: "/path/to/image/storage/"
+3. Temporary image storage directory:
+   ```xml
+   DetectAndMatch_img_save_path: "/path/to/image/storage/"
+   ```
 
-3.change url in launch file
-            DetectAndMatch_URL: "http://10.192.4.95:6000/process_images"
-please change it to your URL, it must be same to your online matcher's result. (step 2)
+## Usage Instructions
 
-4.change your image save paths,
-you should create a document to save your images,
-            DetectAndMatch_img_save_path: "/home/cxhu/new/test/"
-please change it to your path.
+Execute the following steps in order:
 
+1. Start ROS master:
+   ```bash
+   roscore
+   ```
 
-##usage
-to run the examle file ,you should do these 4 step in order
-1.open first terminal ,run your ros master
-roscore
-2.open second terminal, run online matcher
-cd /home/cxhu/Documents/online_matcher/result/    (please to change it to your matcher's file path)
-./main ./config/loc_online.yaml
-3.open third terminal, run launch file
-roslaunch ov_msckf use_example.launch
-4.open forth, run our bag
-cd /home/cxhu/Documents   (please to change it to your bag's file path)
-rosbag play bag2_2020-11-12-15-28-30.bag --start 7
+2. Launch online matcher:
+   ```bash
+   cd /path/to/online_matcher/result/
+   ./main ./config/loc_online.yaml
+   ```
+
+3. Launch the main node:
+   ```bash
+   roslaunch ov_msckf use_example.launch
+   ```
+
+4. Play the example rosbag:
+   ```bash
+   cd /path/to/bagfile/
+   rosbag play bag2_2020-11-12-15-28-30.bag --start 7
+   ```
