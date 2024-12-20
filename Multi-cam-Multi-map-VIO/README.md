@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the source code of the algorithm **Multi-cam-Multi-map-VIO** (Multi-camera Multiple Maps Based VIO), which consistently fuses multiple maps into VIO to improve its performance. This algorithm is based on [C-MIMB-VIO](https://github.com/zhuqingzhang/C-MIMB-VIO) and extends it to support multi-camera setups.
+This repository contains the source code of the algorithm **Multi-cam-Multi-map-VIO**, which consistently fuses multiple maps into VIO to improve its performance. This algorithm is based on [C-MIMB-VIO](https://github.com/zhuqingzhang/C-MIMB-VIO) and extends it to support multi-camera setups.
 
 ## Installation
 This repository is currently only support ROS1. All the dependencies is the as those in Open-VINS. You can follow the guidance of [Open-VINS Installation](https://docs.openvins.com/gs-installing.html) to install the dependencies.
