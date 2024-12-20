@@ -1,4 +1,0 @@
-<launch>
-    <node pkg="rosbag" type="play" name="playe" args="/media/tony/Extreme\ SSD/2024-06-26-14-56-44.bag"/>
-    <node name="world_to_arm_base" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 world cam0 50"/> 
-</launch>
