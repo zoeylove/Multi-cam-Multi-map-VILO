@@ -125,9 +125,9 @@ Captured across multiple sessions, the dataset includes seasonal and environment
 
 ## Links
 
-### Complete Relocation Code
+### Executable Files and Sample Maps for Map Relocalization
 
-Access the full relocation code [here](https://pan.baidu.com/s/14YC5RbbUCvHGtfiMaM2u0A?pwd=85ym).  
+Access the full relocalization code [here](https://pan.baidu.com/s/14YC5RbbUCvHGtfiMaM2u0A?pwd=85ym).  
 Password: `85ym`
 
 ### Complete Dataset
