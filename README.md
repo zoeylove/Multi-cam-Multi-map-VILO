@@ -126,9 +126,9 @@ Captured across multiple sessions, the dataset includes seasonal and environment
 
 ## Links
 
-### VIO Code
+### VILO Code
 
-Access the VILO part's code from [GitHub - C-MIMB-VIO](https://github.com/zoeylove/Multi-cam-Multi-map-VILO/tree/main/VILO).
+Access the VILO part's code from [VILO](https://github.com/zoeylove/Multi-cam-Multi-map-VILO/tree/main/VILO).
 
 ### Executable Files and Sample Maps for Map Relocalization
 
