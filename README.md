@@ -57,10 +57,10 @@ The **Multi-cam Multi-map Visual Inertial Localization (VILO)** system is a high
   - [Hardware](#hardware)
   - [Synchronization](#synchronization)
   - [Dataset](#dataset)
-<!-- - [Installation](#installation)
-- [Usage](#usage)
-- [Citing](#citing)
-- [License](#license) -->
+
+- [Links](#links)
+  - [Complete Relocation Code](#complete-relocation-code)
+  - [Complete Dataset](#complete-dataset)
 
 ---
 
@@ -121,53 +121,23 @@ Captured across multiple sessions, the dataset includes seasonal and environment
 
 ![Seasonal Variations](./figs/data.gif)
 
+---
+
+## Links
+
+### Complete Relocation Code
+
+Access the full relocation code [here](https://pan.baidu.com/s/14YC5RbbUCvHGtfiMaM2u0A?pwd=85ym).  
+Password: `85ym`
+
+### Complete Dataset
+
+Download the complete dataset from [Baidu Netdisk](https://pan.baidu.com/s/16jxudkPhjoSZaeb87pbkOw?pwd=uu8t).  
+Password: `uu8t`
 
 ---
 
-<!-- ## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/zoeylove/Multi-cam-Multi-map-VILO.git
-   cd Multi-cam-Multi-map-VILO
-   ```
-
-2. **Install dependencies**:
-    ```bash
-    Detailed steps for setting up the environment, including any ROS, OpenCV, or custom libraries.
-    ```
-
-2. **Dataset Setup**:
-    ```bash
-    Download our dataset from [link-to-dataset] and extract it to the data directory.
-    ```
-
-## Usage
-
-1. **Mapping Mode**:
-    Run the mapping module with:
-    ```bash
-    python3 mapping.py --config config/mapping.yaml
-    ```
-    This initiates the mapping process and provides visual feedback on mapping quality.
-    
-2. **Localization Mode**:
-    Run the localization module with:
-    ```bash
-    python3 localization.py --config config/localization.yaml
-    ```
-    This will load pre-built maps and start the localization feedback loop for real-time state estimation.
-
-## Evaluation and Metrics
-
-The accuracy and robustness of the system are measured across various metrics:
-
-- Mapping Accuracy: Measures errors in keyframe alignment and map point accuracy.
-- Localization Accuracy: Causal, real-time trajectory accuracy in both map and local frames.
-
-Refer to the appendix for detailed evaluation metrics and experimental results.
-
-## Citing
+<!-- ## Citing
 
 ```bibtex
 @article{xxxxxx,
