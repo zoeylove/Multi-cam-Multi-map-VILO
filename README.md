@@ -127,7 +127,7 @@ Captured across multiple sessions, the dataset includes seasonal and environment
 
 ### Executable Files and Sample Maps for Map Relocalization
 
-Access the full relocalization code [Baidu Netdisk](https://pan.baidu.com/s/14YC5RbbUCvHGtfiMaM2u0A?pwd=85ym).  
+Access the full relocalization code from [Baidu Netdisk](https://pan.baidu.com/s/14YC5RbbUCvHGtfiMaM2u0A?pwd=85ym).  
 Password: `85ym`
 
 ### Complete Dataset
