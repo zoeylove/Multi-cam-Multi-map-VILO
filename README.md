@@ -86,7 +86,7 @@ Uses pre-built maps for accurate, consistent localization by combining multi-cam
 
 ## Datasets
 
-We offer a robust, nine-month dataset from Zhejiang University’s Zijingang Campus, spanning over 55 km and diverse real-world conditions. The dataset includes synchronized surround-view cameras, IMU, LiDAR, GPS, and INS data, making it an ideal resource for long-term testing of localization accuracy and robustness.
+We offer a robust, nine-month dataset from Zhejiang University's Zijingang Campus, spanning over 55 km and diverse real-world conditions. The dataset includes synchronized surround-view cameras, IMU, LiDAR, GPS, and INS data, making it an ideal resource for long-term testing of localization accuracy and robustness.
 
 ### Hardware
 
@@ -102,7 +102,7 @@ Custom synchronization module ensures unified timestamps across sensors, critica
 
 ### Collected Data
 
-The dataset includes nine months of multi-sensor data from Zhejiang University’s Zijingang Campus, covering 55 km under diverse environmental conditions. This dataset provides a robust basis for testing VILO’s performance in real-world, long-term scenarios.
+The dataset includes nine months of multi-sensor data from Zhejiang University's Zijingang Campus, covering 55 km under diverse environmental conditions. This dataset provides a robust basis for testing VILO’s performance in real-world, long-term scenarios.
 
 #### 1. Multi-Camera Data Samples
 
