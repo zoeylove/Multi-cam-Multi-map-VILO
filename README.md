@@ -1,7 +1,7 @@
 # Multi-cam Multi-map Visual Inertial Localization: System, Validation and Dataset
 
-<!-- ![Multi-cam Multi-map Visual Inertial Localization: System, Validation and Dataset](./figs/video.png) -->
-<!-- [Click to view our video](https://www.bilibili.com/video/BV1bZ1sYgERL) -->
+![Multi-cam Multi-map Visual Inertial Localization: System, Validation and Dataset](./figs/video.png)
+[Click to view our video](https://www.bilibili.com/video/BV1bZ1sYgERL)
 
 
 <!-- ---
